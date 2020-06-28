@@ -1,0 +1,21 @@
+• Caricare sull’Arduino ATMega2560 il file “homeController.hex” presente nella cartella
+  ArduinoHomeController/SmartHouse/Main.
+  Quindi eseguire da terminale:
+
+                        >> make homeController.hex
+
+• Nella stessa cartella è presente il file “latopc.c” che avvierà il Server.
+  Compilare ed eseguire nel seguente modo da terminale:
+
+                         >> gcc latopc.c -o latopc
+                         >> ./latopc
+
+• Per avviare il client web aprire un’altro terminale entrando nella cartella
+  ArduinoHomeController/WebInterface/TOMCAT 9.0.31/bin ed avviare il server Tomcat
+  eseguendo il comando:
+
+                         >> sh startup.sh start
+
+Una volta avviato Tomcat, aprire un web browser al seguente indirizzo:
+
+                    http://localhost:8080/collegamentoWeb
