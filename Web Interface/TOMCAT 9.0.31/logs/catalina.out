@@ -1,0 +1,525 @@
+28-Jun-2020 11:35:13.352 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.31
+28-Jun-2020 11:35:13.384 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2020 19:32:12 UTC
+28-Jun-2020 11:35:13.384 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.31.0
+28-Jun-2020 11:35:13.384 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+28-Jun-2020 11:35:13.384 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-39-generic
+28-Jun-2020 11:35:13.385 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Jun-2020 11:35:13.385 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+28-Jun-2020 11:35:13.385 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_252-8u252-b09-1ubuntu1-b09
+28-Jun-2020 11:35:13.385 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+28-Jun-2020 11:35:13.385 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31
+28-Jun-2020 11:35:13.385 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31
+28-Jun-2020 11:35:13.658 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/conf/logging.properties
+28-Jun-2020 11:35:13.659 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jun-2020 11:35:13.659 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Jun-2020 11:35:13.659 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Jun-2020 11:35:13.659 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Jun-2020 11:35:13.659 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Jun-2020 11:35:13.659 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31
+28-Jun-2020 11:35:13.659 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31
+28-Jun-2020 11:35:13.659 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/temp
+28-Jun-2020 11:35:13.660 INFORMAZIONI [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+28-Jun-2020 11:35:16.707 INFORMAZIONI [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Jun-2020 11:35:17.267 INFORMAZIONI [main] org.apache.catalina.startup.Catalina.load Server initialization in [5,338] milliseconds
+28-Jun-2020 11:35:17.560 INFORMAZIONI [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Jun-2020 11:35:17.560 INFORMAZIONI [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.31]
+28-Jun-2020 11:35:17.730 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/Collegamento Web.war]
+28-Jun-2020 11:35:20.171 AVVERTENZA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [379] milliseconds.
+28-Jun-2020 11:35:20.326 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/Collegamento Web.war] has finished in [2,596] ms
+28-Jun-2020 11:35:20.327 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/docs]
+28-Jun-2020 11:35:20.358 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/docs] has finished in [31] ms
+28-Jun-2020 11:35:20.359 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/ROOT]
+28-Jun-2020 11:35:20.389 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/ROOT] has finished in [30] ms
+28-Jun-2020 11:35:20.389 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/manager]
+28-Jun-2020 11:35:20.458 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/manager] has finished in [69] ms
+28-Jun-2020 11:35:20.459 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/examples]
+28-Jun-2020 11:35:21.565 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/examples] has finished in [1,106] ms
+28-Jun-2020 11:35:21.565 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/host-manager]
+28-Jun-2020 11:35:21.624 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/host-manager] has finished in [59] ms
+28-Jun-2020 11:35:21.628 INFORMAZIONI [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Jun-2020 11:35:21.643 INFORMAZIONI [main] org.apache.catalina.startup.Catalina.start Server startup in [4,375] milliseconds
+Connessione rifiutata (Connection refused)
+Errore durante la comunicazione con la porta: java.lang.NullPointerException
+Errore durante la comunicazione con la porta: java.lang.NullPointerException
+Errore durante la comunicazione con la porta: java.lang.NullPointerException
+Errore durante la comunicazione con la porta: java.lang.NullPointerException
+SONO QUI
+
+Errore durante la comunicazione con la porta: java.lang.NullPointerException
+Errore durante la comunicazione con la porta: java.lang.NullPointerException
+28-Jun-2020 11:39:12.642 INFORMAZIONI [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Collegamento Web]
+28-Jun-2020 11:39:52.693 INFORMAZIONI [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/collegamentoWeb.war]
+28-Jun-2020 11:39:52.749 INFORMAZIONI [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/collegamentoWeb.war] has finished in [56] ms
+28-Jun-2020 11:42:57.379 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.31
+28-Jun-2020 11:42:57.380 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2020 19:32:12 UTC
+28-Jun-2020 11:42:57.381 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.31.0
+28-Jun-2020 11:42:57.381 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+28-Jun-2020 11:42:57.381 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-39-generic
+28-Jun-2020 11:42:57.381 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Jun-2020 11:42:57.381 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+28-Jun-2020 11:42:57.381 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_252-8u252-b09-1ubuntu1-b09
+28-Jun-2020 11:42:57.381 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+28-Jun-2020 11:42:57.381 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31
+28-Jun-2020 11:42:57.381 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31
+28-Jun-2020 11:42:57.382 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/conf/logging.properties
+28-Jun-2020 11:42:57.383 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jun-2020 11:42:57.383 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Jun-2020 11:42:57.383 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Jun-2020 11:42:57.383 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Jun-2020 11:42:57.383 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Jun-2020 11:42:57.383 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31
+28-Jun-2020 11:42:57.383 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31
+28-Jun-2020 11:42:57.384 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/temp
+28-Jun-2020 11:42:57.384 INFORMAZIONI [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+28-Jun-2020 11:42:57.660 INFORMAZIONI [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Jun-2020 11:42:57.701 GRAVE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1013)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:533)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1057)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:584)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:303)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: java.net.BindException: Indirizzo già in uso
+		at sun.nio.ch.Net.bind0(Native Method)
+		at sun.nio.ch.Net.bind(Net.java:433)
+		at sun.nio.ch.Net.bind(Net.java:425)
+		at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:220)
+		at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:85)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:229)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:212)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1141)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1154)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:74)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1010)
+		... 13 more
+28-Jun-2020 11:42:57.703 INFORMAZIONI [main] org.apache.catalina.startup.Catalina.load Server initialization in [511] milliseconds
+28-Jun-2020 11:42:57.730 INFORMAZIONI [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Jun-2020 11:42:57.730 INFORMAZIONI [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.31]
+28-Jun-2020 11:42:57.748 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/collegamentoWeb.war]
+28-Jun-2020 11:42:58.060 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/collegamentoWeb.war] has finished in [312] ms
+28-Jun-2020 11:42:58.061 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/docs]
+28-Jun-2020 11:42:58.093 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/docs] has finished in [32] ms
+28-Jun-2020 11:42:58.094 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/ROOT]
+28-Jun-2020 11:42:58.114 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/ROOT] has finished in [19] ms
+28-Jun-2020 11:42:58.114 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/manager]
+28-Jun-2020 11:42:58.148 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/manager] has finished in [34] ms
+28-Jun-2020 11:42:58.149 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/examples]
+28-Jun-2020 11:42:58.389 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/examples] has finished in [240] ms
+28-Jun-2020 11:42:58.390 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/host-manager]
+28-Jun-2020 11:42:58.411 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/host-manager] has finished in [21] ms
+28-Jun-2020 11:42:58.415 INFORMAZIONI [main] org.apache.catalina.startup.Catalina.start Server startup in [711] milliseconds
+28-Jun-2020 11:42:58.421 GRAVE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Indirizzo già in uso (Bind failed)
+		at java.net.PlainSocketImpl.socketBind(Native Method)
+		at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+		at java.net.ServerSocket.bind(ServerSocket.java:390)
+		at java.net.ServerSocket.<init>(ServerSocket.java:252)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:584)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:721)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:667)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:343)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+28-Jun-2020 11:42:58.422 INFORMAZIONI [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Jun-2020 11:42:58.422 INFORMAZIONI [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Jun-2020 11:42:58.444 INFORMAZIONI [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Jun-2020 11:42:58.444 INFORMAZIONI [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-Jun-2020 11:43:00.493 INFORMAZIONI [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+28-Jun-2020 11:43:00.493 INFORMAZIONI [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Jun-2020 11:43:00.500 INFORMAZIONI [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Jun-2020 11:43:00.530 INFORMAZIONI [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Jun-2020 11:43:00.536 INFORMAZIONI [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-Jun-2020 11:43:07.531 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.31
+28-Jun-2020 11:43:07.550 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2020 19:32:12 UTC
+28-Jun-2020 11:43:07.551 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.31.0
+28-Jun-2020 11:43:07.551 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+28-Jun-2020 11:43:07.551 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-39-generic
+28-Jun-2020 11:43:07.551 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Jun-2020 11:43:07.551 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+28-Jun-2020 11:43:07.551 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_252-8u252-b09-1ubuntu1-b09
+28-Jun-2020 11:43:07.551 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+28-Jun-2020 11:43:07.551 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31
+28-Jun-2020 11:43:07.551 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31
+28-Jun-2020 11:43:07.552 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/conf/logging.properties
+28-Jun-2020 11:43:07.552 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jun-2020 11:43:07.552 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Jun-2020 11:43:07.552 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Jun-2020 11:43:07.552 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Jun-2020 11:43:07.552 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Jun-2020 11:43:07.553 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31
+28-Jun-2020 11:43:07.553 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31
+28-Jun-2020 11:43:07.553 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/temp
+28-Jun-2020 11:43:07.553 INFORMAZIONI [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+28-Jun-2020 11:43:07.827 INFORMAZIONI [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Jun-2020 11:43:07.870 INFORMAZIONI [main] org.apache.catalina.startup.Catalina.load Server initialization in [529] milliseconds
+28-Jun-2020 11:43:07.898 INFORMAZIONI [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Jun-2020 11:43:07.898 INFORMAZIONI [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.31]
+28-Jun-2020 11:43:07.916 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/collegamentoWeb.war]
+28-Jun-2020 11:43:08.213 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/collegamentoWeb.war] has finished in [297] ms
+28-Jun-2020 11:43:08.214 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/docs]
+28-Jun-2020 11:43:08.234 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/docs] has finished in [20] ms
+28-Jun-2020 11:43:08.234 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/ROOT]
+28-Jun-2020 11:43:08.252 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/ROOT] has finished in [18] ms
+28-Jun-2020 11:43:08.253 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/manager]
+28-Jun-2020 11:43:08.286 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/manager] has finished in [32] ms
+28-Jun-2020 11:43:08.286 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/examples]
+28-Jun-2020 11:43:08.518 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/examples] has finished in [232] ms
+28-Jun-2020 11:43:08.518 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/host-manager]
+28-Jun-2020 11:43:08.542 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/host-manager] has finished in [24] ms
+28-Jun-2020 11:43:08.546 INFORMAZIONI [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Jun-2020 11:43:08.556 INFORMAZIONI [main] org.apache.catalina.startup.Catalina.start Server startup in [685] milliseconds
+28-Jun-2020 11:43:09.050 INFORMAZIONI [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+28-Jun-2020 11:43:09.051 INFORMAZIONI [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Jun-2020 11:43:09.060 INFORMAZIONI [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Jun-2020 11:43:09.091 INFORMAZIONI [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Jun-2020 11:43:09.094 INFORMAZIONI [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-Jun-2020 12:35:29.879 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.31
+28-Jun-2020 12:35:29.880 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2020 19:32:12 UTC
+28-Jun-2020 12:35:29.881 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.31.0
+28-Jun-2020 12:35:29.881 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+28-Jun-2020 12:35:29.881 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-39-generic
+28-Jun-2020 12:35:29.881 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Jun-2020 12:35:29.881 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+28-Jun-2020 12:35:29.881 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_252-8u252-b09-1ubuntu1-b09
+28-Jun-2020 12:35:29.881 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+28-Jun-2020 12:35:29.881 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31
+28-Jun-2020 12:35:29.881 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31
+28-Jun-2020 12:35:29.883 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/conf/logging.properties
+28-Jun-2020 12:35:29.883 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jun-2020 12:35:29.883 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Jun-2020 12:35:29.883 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Jun-2020 12:35:29.883 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Jun-2020 12:35:29.883 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Jun-2020 12:35:29.883 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31
+28-Jun-2020 12:35:29.883 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31
+28-Jun-2020 12:35:29.884 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/temp
+28-Jun-2020 12:35:29.884 INFORMAZIONI [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+28-Jun-2020 12:35:30.179 INFORMAZIONI [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Jun-2020 12:35:30.224 INFORMAZIONI [main] org.apache.catalina.startup.Catalina.load Server initialization in [535] milliseconds
+28-Jun-2020 12:35:30.251 INFORMAZIONI [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Jun-2020 12:35:30.252 INFORMAZIONI [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.31]
+28-Jun-2020 12:35:30.270 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/collegamentoWeb.war]
+28-Jun-2020 12:35:30.557 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/collegamentoWeb.war] has finished in [287] ms
+28-Jun-2020 12:35:30.558 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/docs]
+28-Jun-2020 12:35:30.576 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/docs] has finished in [18] ms
+28-Jun-2020 12:35:30.576 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/ROOT]
+28-Jun-2020 12:35:30.594 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/ROOT] has finished in [17] ms
+28-Jun-2020 12:35:30.594 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/manager]
+28-Jun-2020 12:35:30.629 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/manager] has finished in [34] ms
+28-Jun-2020 12:35:30.629 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/examples]
+28-Jun-2020 12:35:30.845 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/examples] has finished in [216] ms
+28-Jun-2020 12:35:30.845 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/host-manager]
+28-Jun-2020 12:35:30.867 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/host-manager] has finished in [22] ms
+28-Jun-2020 12:35:30.871 INFORMAZIONI [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Jun-2020 12:35:30.880 INFORMAZIONI [main] org.apache.catalina.startup.Catalina.start Server startup in [655] milliseconds
+Socket Avviata!
+Socket Avviata!
+28-Jun-2020 12:37:17.456 INFORMAZIONI [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Jun-2020 12:37:17.463 INFORMAZIONI [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Jun-2020 12:37:17.485 INFORMAZIONI [Thread-4] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [smartInterface.controllers.JavaClient_ChiudiSocket_Servlet]
+28-Jun-2020 12:37:18.486 INFORMAZIONI [Thread-4] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [smartInterface.controllers.JavaClient_ChiudiSocket_Servlet]
+28-Jun-2020 12:37:19.487 INFORMAZIONI [Thread-4] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [smartInterface.controllers.JavaClient_ChiudiSocket_Servlet]
+28-Jun-2020 12:37:19.603 AVVERTENZA [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [collegamentoWeb] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.lang.Object.wait(Native Method)
+ java.lang.Thread.join(Thread.java:1252)
+ java.lang.Thread.join(Thread.java:1326)
+ java.lang.ApplicationShutdownHooks.runHooks(ApplicationShutdownHooks.java:107)
+ java.lang.ApplicationShutdownHooks$1.run(ApplicationShutdownHooks.java:46)
+ java.lang.Shutdown.runHooks(Shutdown.java:123)
+ java.lang.Shutdown.sequence(Shutdown.java:167)
+ java.lang.Shutdown.exit(Shutdown.java:212)
+ java.lang.Runtime.exit(Runtime.java:109)
+ java.lang.System.exit(System.java:973)
+ smartInterface.controllers.JavaClient_ChiudiSocket_Servlet.doPost(JavaClient_ChiudiSocket_Servlet.java:20)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+ org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:688)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.lang.Thread.run(Thread.java:748)]
+28-Jun-2020 12:37:19.612 INFORMAZIONI [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Jun-2020 12:37:24.614 AVVERTENZA [Thread-4] org.apache.tomcat.util.net.AbstractEndpoint.shutdownExecutor The executor associated with thread pool [http-nio-8080] has not fully shutdown. Some application threads may still be running.
+28-Jun-2020 12:37:24.615 INFORMAZIONI [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-Jun-2020 12:37:42.465 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.31
+28-Jun-2020 12:37:42.467 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2020 19:32:12 UTC
+28-Jun-2020 12:37:42.467 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.31.0
+28-Jun-2020 12:37:42.467 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+28-Jun-2020 12:37:42.467 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-39-generic
+28-Jun-2020 12:37:42.467 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Jun-2020 12:37:42.468 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+28-Jun-2020 12:37:42.468 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_252-8u252-b09-1ubuntu1-b09
+28-Jun-2020 12:37:42.468 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+28-Jun-2020 12:37:42.468 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31
+28-Jun-2020 12:37:42.468 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31
+28-Jun-2020 12:37:42.469 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/conf/logging.properties
+28-Jun-2020 12:37:42.469 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jun-2020 12:37:42.469 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Jun-2020 12:37:42.469 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Jun-2020 12:37:42.469 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Jun-2020 12:37:42.469 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Jun-2020 12:37:42.469 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31
+28-Jun-2020 12:37:42.470 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31
+28-Jun-2020 12:37:42.470 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/temp
+28-Jun-2020 12:37:42.470 INFORMAZIONI [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+28-Jun-2020 12:37:42.785 INFORMAZIONI [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Jun-2020 12:37:42.846 INFORMAZIONI [main] org.apache.catalina.startup.Catalina.load Server initialization in [584] milliseconds
+28-Jun-2020 12:37:42.879 INFORMAZIONI [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Jun-2020 12:37:42.879 INFORMAZIONI [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.31]
+28-Jun-2020 12:37:42.899 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/collegamentoWeb.war]
+28-Jun-2020 12:37:43.318 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/collegamentoWeb.war] has finished in [419] ms
+28-Jun-2020 12:37:43.319 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/docs]
+28-Jun-2020 12:37:43.341 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/docs] has finished in [22] ms
+28-Jun-2020 12:37:43.342 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/ROOT]
+28-Jun-2020 12:37:43.368 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/ROOT] has finished in [25] ms
+28-Jun-2020 12:37:43.368 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/manager]
+28-Jun-2020 12:37:43.439 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/manager] has finished in [71] ms
+28-Jun-2020 12:37:43.440 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/examples]
+28-Jun-2020 12:37:43.729 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/examples] has finished in [289] ms
+28-Jun-2020 12:37:43.729 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/host-manager]
+28-Jun-2020 12:37:43.754 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/host-manager] has finished in [25] ms
+28-Jun-2020 12:37:43.758 INFORMAZIONI [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Jun-2020 12:37:43.772 INFORMAZIONI [main] org.apache.catalina.startup.Catalina.start Server startup in [925] milliseconds
+Socket Avviata!
+28-Jun-2020 12:37:50.804 INFORMAZIONI [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Jun-2020 12:37:50.823 INFORMAZIONI [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Jun-2020 12:37:50.853 INFORMAZIONI [Thread-4] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [smartInterface.controllers.JavaClient_ChiudiSocket_Servlet]
+28-Jun-2020 12:37:51.854 INFORMAZIONI [Thread-4] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [smartInterface.controllers.JavaClient_ChiudiSocket_Servlet]
+28-Jun-2020 12:37:52.856 INFORMAZIONI [Thread-4] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [smartInterface.controllers.JavaClient_ChiudiSocket_Servlet]
+28-Jun-2020 12:37:52.965 AVVERTENZA [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [collegamentoWeb] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.lang.Object.wait(Native Method)
+ java.lang.Thread.join(Thread.java:1252)
+ java.lang.Thread.join(Thread.java:1326)
+ java.lang.ApplicationShutdownHooks.runHooks(ApplicationShutdownHooks.java:107)
+ java.lang.ApplicationShutdownHooks$1.run(ApplicationShutdownHooks.java:46)
+ java.lang.Shutdown.runHooks(Shutdown.java:123)
+ java.lang.Shutdown.sequence(Shutdown.java:167)
+ java.lang.Shutdown.exit(Shutdown.java:212)
+ java.lang.Runtime.exit(Runtime.java:109)
+ java.lang.System.exit(System.java:973)
+ smartInterface.controllers.JavaClient_ChiudiSocket_Servlet.doPost(JavaClient_ChiudiSocket_Servlet.java:20)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+ org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:688)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.lang.Thread.run(Thread.java:748)]
+28-Jun-2020 12:37:52.972 INFORMAZIONI [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Jun-2020 12:37:57.973 AVVERTENZA [Thread-4] org.apache.tomcat.util.net.AbstractEndpoint.shutdownExecutor The executor associated with thread pool [http-nio-8080] has not fully shutdown. Some application threads may still be running.
+28-Jun-2020 12:37:57.975 INFORMAZIONI [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-Jun-2020 12:38:02.941 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.31
+28-Jun-2020 12:38:02.942 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2020 19:32:12 UTC
+28-Jun-2020 12:38:02.943 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.31.0
+28-Jun-2020 12:38:02.943 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+28-Jun-2020 12:38:02.943 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-39-generic
+28-Jun-2020 12:38:02.943 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Jun-2020 12:38:02.943 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+28-Jun-2020 12:38:02.943 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_252-8u252-b09-1ubuntu1-b09
+28-Jun-2020 12:38:02.943 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+28-Jun-2020 12:38:02.943 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31
+28-Jun-2020 12:38:02.943 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31
+28-Jun-2020 12:38:02.944 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/conf/logging.properties
+28-Jun-2020 12:38:02.944 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jun-2020 12:38:02.945 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Jun-2020 12:38:02.945 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Jun-2020 12:38:02.945 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Jun-2020 12:38:02.945 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Jun-2020 12:38:02.945 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31
+28-Jun-2020 12:38:02.945 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31
+28-Jun-2020 12:38:02.945 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/temp
+28-Jun-2020 12:38:02.945 INFORMAZIONI [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+28-Jun-2020 12:38:03.216 INFORMAZIONI [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Jun-2020 12:38:03.269 INFORMAZIONI [main] org.apache.catalina.startup.Catalina.load Server initialization in [520] milliseconds
+28-Jun-2020 12:38:03.298 INFORMAZIONI [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Jun-2020 12:38:03.298 INFORMAZIONI [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.31]
+28-Jun-2020 12:38:03.316 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/collegamentoWeb.war]
+28-Jun-2020 12:38:03.631 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/collegamentoWeb.war] has finished in [315] ms
+28-Jun-2020 12:38:03.633 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/docs]
+28-Jun-2020 12:38:03.654 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/docs] has finished in [21] ms
+28-Jun-2020 12:38:03.655 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/ROOT]
+28-Jun-2020 12:38:03.672 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/ROOT] has finished in [17] ms
+28-Jun-2020 12:38:03.672 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/manager]
+28-Jun-2020 12:38:03.720 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/manager] has finished in [48] ms
+28-Jun-2020 12:38:03.721 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/examples]
+28-Jun-2020 12:38:04.017 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/examples] has finished in [296] ms
+28-Jun-2020 12:38:04.020 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/host-manager]
+28-Jun-2020 12:38:04.046 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/host-manager] has finished in [26] ms
+28-Jun-2020 12:38:04.051 INFORMAZIONI [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Jun-2020 12:38:04.064 INFORMAZIONI [main] org.apache.catalina.startup.Catalina.start Server startup in [794] milliseconds
+Socket Avviata!
+28-Jun-2020 12:38:16.754 INFORMAZIONI [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Jun-2020 12:38:16.761 INFORMAZIONI [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Jun-2020 12:38:16.785 INFORMAZIONI [Thread-4] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [smartInterface.controllers.JavaClient_ChiudiSocket_Servlet]
+28-Jun-2020 12:38:17.786 INFORMAZIONI [Thread-4] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [smartInterface.controllers.JavaClient_ChiudiSocket_Servlet]
+28-Jun-2020 12:38:18.787 INFORMAZIONI [Thread-4] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [smartInterface.controllers.JavaClient_ChiudiSocket_Servlet]
+28-Jun-2020 12:38:18.896 AVVERTENZA [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [collegamentoWeb] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.lang.Object.wait(Native Method)
+ java.lang.Thread.join(Thread.java:1252)
+ java.lang.Thread.join(Thread.java:1326)
+ java.lang.ApplicationShutdownHooks.runHooks(ApplicationShutdownHooks.java:107)
+ java.lang.ApplicationShutdownHooks$1.run(ApplicationShutdownHooks.java:46)
+ java.lang.Shutdown.runHooks(Shutdown.java:123)
+ java.lang.Shutdown.sequence(Shutdown.java:167)
+ java.lang.Shutdown.exit(Shutdown.java:212)
+ java.lang.Runtime.exit(Runtime.java:109)
+ java.lang.System.exit(System.java:973)
+ smartInterface.controllers.JavaClient_ChiudiSocket_Servlet.doPost(JavaClient_ChiudiSocket_Servlet.java:20)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+ org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:688)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.lang.Thread.run(Thread.java:748)]
+28-Jun-2020 12:38:18.902 INFORMAZIONI [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Jun-2020 12:38:23.906 AVVERTENZA [Thread-4] org.apache.tomcat.util.net.AbstractEndpoint.shutdownExecutor The executor associated with thread pool [http-nio-8080] has not fully shutdown. Some application threads may still be running.
+28-Jun-2020 12:38:23.908 INFORMAZIONI [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-Jun-2020 18:49:38.556 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.31
+28-Jun-2020 18:49:38.558 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2020 19:32:12 UTC
+28-Jun-2020 18:49:38.558 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.31.0
+28-Jun-2020 18:49:38.558 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+28-Jun-2020 18:49:38.558 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-39-generic
+28-Jun-2020 18:49:38.558 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Jun-2020 18:49:38.558 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+28-Jun-2020 18:49:38.558 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_252-8u252-b09-1ubuntu1-b09
+28-Jun-2020 18:49:38.558 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+28-Jun-2020 18:49:38.558 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31
+28-Jun-2020 18:49:38.559 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31
+28-Jun-2020 18:49:38.560 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/conf/logging.properties
+28-Jun-2020 18:49:38.560 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jun-2020 18:49:38.560 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Jun-2020 18:49:38.560 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Jun-2020 18:49:38.560 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Jun-2020 18:49:38.560 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Jun-2020 18:49:38.560 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31
+28-Jun-2020 18:49:38.560 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31
+28-Jun-2020 18:49:38.561 INFORMAZIONI [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/temp
+28-Jun-2020 18:49:38.561 INFORMAZIONI [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+28-Jun-2020 18:49:38.819 INFORMAZIONI [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Jun-2020 18:49:38.861 INFORMAZIONI [main] org.apache.catalina.startup.Catalina.load Server initialization in [487] milliseconds
+28-Jun-2020 18:49:38.887 INFORMAZIONI [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Jun-2020 18:49:38.887 INFORMAZIONI [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.31]
+28-Jun-2020 18:49:38.904 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/collegamentoWeb.war]
+28-Jun-2020 18:49:39.192 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/collegamentoWeb.war] has finished in [288] ms
+28-Jun-2020 18:49:39.193 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/docs]
+28-Jun-2020 18:49:39.212 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/docs] has finished in [19] ms
+28-Jun-2020 18:49:39.213 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/ROOT]
+28-Jun-2020 18:49:39.230 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/ROOT] has finished in [17] ms
+28-Jun-2020 18:49:39.230 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/manager]
+28-Jun-2020 18:49:39.260 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/manager] has finished in [29] ms
+28-Jun-2020 18:49:39.260 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/examples]
+28-Jun-2020 18:49:39.478 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/examples] has finished in [218] ms
+28-Jun-2020 18:49:39.478 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/host-manager]
+28-Jun-2020 18:49:39.499 INFORMAZIONI [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sara/Scrivania/Arduino Home Controller/Web Interface/TOMCAT 9.0.31/webapps/host-manager] has finished in [20] ms
+28-Jun-2020 18:49:39.503 INFORMAZIONI [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Jun-2020 18:49:39.511 INFORMAZIONI [main] org.apache.catalina.startup.Catalina.start Server startup in [649] milliseconds
+Socket Avviata!
+28-Jun-2020 18:50:19.786 INFORMAZIONI [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Jun-2020 18:50:19.793 INFORMAZIONI [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Jun-2020 18:50:19.817 INFORMAZIONI [Thread-4] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [smartInterface.controllers.JavaClient_ChiudiSocket_Servlet]
+28-Jun-2020 18:50:20.818 INFORMAZIONI [Thread-4] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [smartInterface.controllers.JavaClient_ChiudiSocket_Servlet]
+28-Jun-2020 18:50:21.819 INFORMAZIONI [Thread-4] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [smartInterface.controllers.JavaClient_ChiudiSocket_Servlet]
+28-Jun-2020 18:50:21.928 AVVERTENZA [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [collegamentoWeb] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.lang.Object.wait(Native Method)
+ java.lang.Thread.join(Thread.java:1252)
+ java.lang.Thread.join(Thread.java:1326)
+ java.lang.ApplicationShutdownHooks.runHooks(ApplicationShutdownHooks.java:107)
+ java.lang.ApplicationShutdownHooks$1.run(ApplicationShutdownHooks.java:46)
+ java.lang.Shutdown.runHooks(Shutdown.java:123)
+ java.lang.Shutdown.sequence(Shutdown.java:167)
+ java.lang.Shutdown.exit(Shutdown.java:212)
+ java.lang.Runtime.exit(Runtime.java:109)
+ java.lang.System.exit(System.java:973)
+ smartInterface.controllers.JavaClient_ChiudiSocket_Servlet.doPost(JavaClient_ChiudiSocket_Servlet.java:20)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+ org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:688)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.lang.Thread.run(Thread.java:748)]
+28-Jun-2020 18:50:21.946 INFORMAZIONI [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Jun-2020 18:50:26.950 AVVERTENZA [Thread-4] org.apache.tomcat.util.net.AbstractEndpoint.shutdownExecutor The executor associated with thread pool [http-nio-8080] has not fully shutdown. Some application threads may still be running.
+28-Jun-2020 18:50:26.951 INFORMAZIONI [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
